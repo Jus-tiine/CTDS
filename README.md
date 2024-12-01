@@ -31,7 +31,7 @@ The project uses the [Microsoft News Dataset (MIND)](https://msnews.github.io/) 
 The Microsoft News Dataset (MIND) contains detailed logs of user interactions with approximately 160,000 English news articles. Key features of the dataset:
 - **User Behavior Logs**: Includes interactions such as clicked and non-clicked events.
 - **News Metadata**: Provides article details like title, abstract, category, and body.
-- **Scale**: Includes data from over 1 million users, with a smaller subset of 50,000 users used for model training and evaluation.
+- **Scale**: Includes data from over 1 million users, with a smaller subset of 50,000 users used for model training and evaluation. Due to limited computational resources, our work mostly used the MIND small dataset. However, each notebook will also run with the full dataset, provides enough resources are avaivible.
 
 The dataset is divided into two primary files:
 1. `behaviors.tsv`: Captures user click histories and impression logs.
