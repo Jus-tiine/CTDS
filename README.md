@@ -74,7 +74,7 @@ This project addresses the following questions:
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/news-recommendation-system.git
+   git clone https://github.com/Jus-tiine/CTDS.git
    cd news-recommendation-system
    ```
 2. Install dependencies:
@@ -86,5 +86,8 @@ This project addresses the following questions:
 
 ## Usage
 Download the [MIND dataset](https://msnews.github.io/) and place it in the `data/` directory.
+
+Each Notebook is self contained as long all requirements and the above mentioned Dataset are set up correctly.
+It is strongly recommended to run the Notebooks with the MIND small dataset initially, since the full set requires significant resources for BERT and DQR.
 
 ---
