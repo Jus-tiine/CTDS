@@ -73,7 +73,6 @@ This project addresses the following questions:
 1. Clone this repository:
    ```bash
    git clone https://github.com/Jus-tiine/CTDS.git
-   cd news-recommendation-system
    ```
 2. Install dependencies:
    ```bash
