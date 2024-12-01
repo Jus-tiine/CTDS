@@ -85,28 +85,6 @@ This project addresses the following questions:
 ---
 
 ## Usage
-1. Download the [MIND dataset](https://msnews.github.io/) and place it in the `data/` directory.
-2. Preprocess the dataset:
-   ```bash
-   python preprocess.py
-   ```
-3. Train and evaluate models:
-   ```bash
-   python train.py --model <model_name> --config <config_file>
-   ```
-   Replace `<model_name>` with one of the available models (`frequent`, `content`, `reinforcement`).
-
-4. Generate recommendations:
-   ```bash
-   python recommend.py --user_id <user_id>
-   ```
+Download the [MIND dataset](https://msnews.github.io/) and place it in the `data/` directory.
 
 ---
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows best practices and includes relevant tests.
-
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
