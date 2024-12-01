@@ -7,3 +7,7 @@ numpy
 pandas
 scikit-learn
 wordcloud
+transformers
+tqdm
+shap
+plotly
