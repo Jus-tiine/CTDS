@@ -12,8 +12,6 @@ This project aims to develop a personalized news recommendation system to enhanc
 4. [Research Questions](#research-questions)
 5. [Setup and Installation](#setup-and-installation)
 6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
