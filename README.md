@@ -84,7 +84,12 @@ This project addresses the following questions:
 ## Usage
 Download the [MIND dataset](https://msnews.github.io/) and place it in the `data/` directory.
 
-Each Notebook is self contained as long all requirements and the above mentioned Dataset are set up correctly.
-It is strongly recommended to run the Notebooks with the MIND small dataset initially, since the full set requires significant resources for BERT and DQR.
+Each notebook is self-contained as long as all requirements and the above dataset are set up correctly.
+
+
+In `data/` is the data from the smaller dataset, so that the whole code can run smoothly. For the recommendation based on 
+frequent items in the report, we used the large dataset. We couldn't use the large dataset for content-based and reinforcement 
+learning recommendation due to the large computational effort and the additional resources required. So the large dataset is not recommended 
+for these two.
 
 ---
