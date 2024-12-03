@@ -1,7 +1,7 @@
 
 # Personalized News Recommendation System
 
-This project aims to develop a personalized news recommendation system to enhance users' reading experience by aligning news suggestions with their interests and exploring popular trends. The project evaluates three approaches: frequent pattern-based, content-based, and reinforcement learning-based recommendations.
+This project aims to develop a personalized news recommendation system to enhance users' reading experience by aligning news suggestions with their interests and exploring popular trends. The project evaluates three approaches: frequent items-based, content-based, and reinforcement learning-based recommendations.
 
 ---
 
@@ -19,7 +19,7 @@ This project aims to develop a personalized news recommendation system to enhanc
 The exponential growth of online platforms has increased the need for effective filtering mechanisms to help users navigate the overwhelming amount of news articles. Personalized recommendation systems address this by suggesting relevant content based on user interests and behaviors.
 
 This project evaluates the following approaches to recommendation:
-- **Frequent Pattern-based Recommendations**: Identifies common patterns in article combinations using algorithms like A-Priori and PC-Y.
+- **Frequent Items-based Recommendations**: Identifies common patterns in article combinations using algorithms like A-Priori and PC-Y.
 - **Content-based Recommendations**: Leverages text features from news articles using clustering methods and the BERT model.
 - **Reinforcement Learning**: Applies DeepQ learning to dynamically adapt recommendations based on user feedback.
 
@@ -42,17 +42,17 @@ The dataset is divided into two primary files:
 ## Methods
 The project implements and evaluates the following methods:
 
-### Frequent Pattern-based Recommendation
-- **Algorithms**: A-Priori, PC-Y
+### Frequent Items-based Recommendation
+- **Algorithms**: A-Priori, PC-Y (`FrequentItemsBased.iypnb`)
 - **Goal**: Identify popular article combinations from user click histories.
 
 ### Content-based Recommendation
-- **Clustering Methods**: Hierarchical Clustering, K-Means, DBSCAN
-- **Feature Extraction**: BERT model for semantic analysis of articles.
-- **Analysis Tools**: Elbow Method, Silhouette Analysis.
+- **Clustering Methods**: Hierarchical Clustering, K-Means, DBSCAN (`Contentbased-Clustering.iypnb`)
+- **Feature Extraction**: BERT model for semantic analysis of articles. (`GroupsWithBERT.iypnb`)
+- **Analysis Tools**: Elbow Method, Silhouette Analysis. (`Contentbased-Clustering.iypnb`)
 
 ### Reinforcement Learning
-- **DeepQ Learning**: Trains a model to adapt dynamically to user preferences for improved recommendations.
+- **DeepQ Learning**: Trains a model to adapt dynamically to user preferences for improved recommendations. (`Deep-Q-Recommendation-Revised.iypnb`)
 
 ---
 
